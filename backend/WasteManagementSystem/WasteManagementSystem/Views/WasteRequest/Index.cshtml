@@ -1,0 +1,116 @@
+﻿@model IEnumerable<WasteManagementSystem.Models.WasteRequest>
+
+@{
+    ViewBag.Title = "Waste Requests List";
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 20px;
+        color: #333;
+    }
+
+    .table-container {
+        max-width: 1000px;
+        margin: 30px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 16px;
+        text-align: left;
+    }
+
+        .table th, .table td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+        }
+
+        .table th {
+            background-color: #f4f4f4;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .table tr:hover {
+            background-color: #f1f1f1;
+        }
+
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #007BFF;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+    .text-center {
+        text-align: center;
+        margin-top: 20px;
+    }
+</style>
+
+<h2>Waste Requests</h2>
+
+<div class="table-container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>User ID</th>
+                <th>Waste Type</th>
+                <th>Location</th>
+                <th>Status</th>
+                <th>Request Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var request in Model)
+            {
+                <tr>
+                    <td>@request.UserID</td>
+                    <td>@request.WasteType</td>
+                    <td>@request.Location</td>
+                    <td>@request.Status</td>
+                    <td>@request.RequestDate.ToString("yyyy-MM-dd")</td>
+
+                    <td>
+                        @Html.ActionLink("Details", "Details", new { id = request.RequestID }, new { @class = "btn btn-info btn-sm" }) |
+                        @Html.ActionLink("Edit", "Edit", new { id = request.RequestID }, new { @class = "btn btn-primary btn-sm" }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = request.RequestID }, new { @class = "btn btn-danger btn-sm" })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="text-center">
+    @Html.ActionLink("Create New Waste Request", "Create", null, new { @class = "btn" })
+    
+</div>

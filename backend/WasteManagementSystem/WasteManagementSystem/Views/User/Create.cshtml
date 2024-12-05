@@ -1,0 +1,155 @@
+﻿@model WasteManagementSystem.Models.User
+
+@{
+    ViewBag.Title = "Create User";
+}
+
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f7f6;
+        margin: 0;
+        padding: 0;
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 20px;
+        color: #333;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .form-container {
+        max-width: 700px;
+        background-color: #fff;
+        margin: 30px auto;
+        padding: 30px 40px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+        .form-container h4 {
+            text-align: center;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
+        .form-container hr {
+            border: 0;
+            height: 1px;
+            background: #ddd;
+            margin-bottom: 20px;
+        }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+
+    .form-control {
+        width: 100%;
+        padding: 10px 15px;
+        font-size: 16px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+        .form-control:focus {
+            border-color: #4CAF50;
+            outline: none;
+            box-shadow: 0 0 5px rgba(76, 175, 80, 0.4);
+        }
+
+    .btn {
+        display: inline-block;
+        width: 100%;
+        padding: 12px;
+        font-size: 18px;
+        color: #fff;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+    .text-danger {
+        color: #d9534f;
+        font-size: 14px;
+    }
+
+    .back-link {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 16px;
+        text-decoration: none;
+        color: #007BFF;
+    }
+
+        .back-link:hover {
+            text-decoration: underline;
+            color: #0056b3;
+        }
+</style>
+
+<h2>Create User</h2>
+
+<div class="form-container">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <h4>New User Form</h4>
+        <hr />
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name)
+            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter full name" } })
+            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email)
+            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter email address" } })
+            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.PasswordHash)
+            @Html.EditorFor(model => model.PasswordHash, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter password" } })
+            @Html.ValidationMessageFor(model => model.PasswordHash, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Role)
+            @Html.EditorFor(model => model.Role, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter role (e.g., Admin, User)" } })
+            @Html.ValidationMessageFor(model => model.Role, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Address)
+            @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter address" } })
+            @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn">Create</button>
+        </div>
+    }
+</div>
+
+<a href="@Url.Action("Index")" class="back-link">Back to List</a>
