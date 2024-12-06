@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "D:\\Personal \u002B class\\CDAC\\.NET\\WasteManagementSystem\\backend\\WasteManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BD27824-C044-4B87-8B58-C942D7C4F5CE}|WasteManagementSystem\\WasteManagementSystem.csproj|D:\\Personal \u002B class\\CDAC\\.NET\\WasteManagementSystem\\backend\\WasteManagementSystem\\wastemanagementsystem\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7BD27824-C044-4B87-8B58-C942D7C4F5CE}|WasteManagementSystem\\WasteManagementSystem.csproj|solutionrelative:wastemanagementsystem\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7BD27824-C044-4B87-8B58-C942D7C4F5CE}|WasteManagementSystem\\WasteManagementSystem.csproj|D:\\Personal \u002B class\\CDAC\\.NET\\WasteManagementSystem\\backend\\WasteManagementSystem\\wastemanagementsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD27824-C044-4B87-8B58-C942D7C4F5CE}|WasteManagementSystem\\WasteManagementSystem.csproj|solutionrelative:wastemanagementsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD27824-C044-4B87-8B58-C942D7C4F5CE}|WasteManagementSystem\\WasteManagementSystem.csproj|D:\\Personal \u002B class\\CDAC\\.NET\\WasteManagementSystem\\backend\\WasteManagementSystem\\wastemanagementsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7BD27824-C044-4B87-8B58-C942D7C4F5CE}|WasteManagementSystem\\WasteManagementSystem.csproj|solutionrelative:wastemanagementsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BD27824-C044-4B87-8B58-C942D7C4F5CE}|WasteManagementSystem\\WasteManagementSystem.csproj|D:\\Personal \u002B class\\CDAC\\.NET\\WasteManagementSystem\\backend\\WasteManagementSystem\\wastemanagementsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BD27824-C044-4B87-8B58-C942D7C4F5CE}|WasteManagementSystem\\WasteManagementSystem.csproj|solutionrelative:wastemanagementsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7BD27824-C044-4B87-8B58-C942D7C4F5CE}|WasteManagementSystem\\WasteManagementSystem.csproj|d:\\personal \u002B class\\cdac\\.net\\wastemanagementsystem\\backend\\wastemanagementsystem\\wastemanagementsystem\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BD27824-C044-4B87-8B58-C942D7C4F5CE}|WasteManagementSystem\\WasteManagementSystem.csproj|solutionrelative:wastemanagementsystem\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7BD27824-C044-4B87-8B58-C942D7C4F5CE}|WasteManagementSystem\\WasteManagementSystem.csproj|D:\\Personal \u002B class\\CDAC\\.NET\\WasteManagementSystem\\backend\\WasteManagementSystem\\wastemanagementsystem\\models\\wasterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BD27824-C044-4B87-8B58-C942D7C4F5CE}|WasteManagementSystem\\WasteManagementSystem.csproj|solutionrelative:wastemanagementsystem\\models\\wasterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BD27824-C044-4B87-8B58-C942D7C4F5CE}|WasteManagementSystem\\WasteManagementSystem.csproj|D:\\Personal \u002B class\\CDAC\\.NET\\WasteManagementSystem\\backend\\WasteManagementSystem\\wastemanagementsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BD27824-C044-4B87-8B58-C942D7C4F5CE}|WasteManagementSystem\\WasteManagementSystem.csproj|solutionrelative:wastemanagementsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7BD27824-C044-4B87-8B58-C942D7C4F5CE}|WasteManagementSystem\\WasteManagementSystem.csproj|D:\\Personal \u002B class\\CDAC\\.NET\\WasteManagementSystem\\backend\\WasteManagementSystem\\wastemanagementsystem\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BD27824-C044-4B87-8B58-C942D7C4F5CE}|WasteManagementSystem\\WasteManagementSystem.csproj|solutionrelative:wastemanagementsystem\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BD27824-C044-4B87-8B58-C942D7C4F5CE}|WasteManagementSystem\\WasteManagementSystem.csproj|D:\\Personal \u002B class\\CDAC\\.NET\\WasteManagementSystem\\backend\\WasteManagementSystem\\wastemanagementsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{7BD27824-C044-4B87-8B58-C942D7C4F5CE}|WasteManagementSystem\\WasteManagementSystem.csproj|solutionrelative:wastemanagementsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,24 +34,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Personal \u002B class\\CDAC\\.NET\\WasteManagementSystem\\backend\\WasteManagementSystem\\WasteManagementSystem\\Views\\User\\Create.cshtml",
               "RelativeDocumentMoniker": "WasteManagementSystem\\Views\\User\\Create.cshtml",
               "ToolTip": "D:\\Personal \u002B class\\CDAC\\.NET\\WasteManagementSystem\\backend\\WasteManagementSystem\\WasteManagementSystem\\Views\\User\\Create.cshtml",
               "RelativeToolTip": "WasteManagementSystem\\Views\\User\\Create.cshtml",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAcwJQAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-05T17:01:36.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Personal \u002B class\\CDAC\\.NET\\WasteManagementSystem\\backend\\WasteManagementSystem\\WasteManagementSystem\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "WasteManagementSystem\\Controllers\\UserController.cs",
@@ -59,11 +75,12 @@
               "RelativeToolTip": "WasteManagementSystem\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T16:54:28.628Z"
+              "WhenOpened": "2024-12-05T16:54:28.628Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Vehicle.cs",
               "DocumentMoniker": "D:\\Personal \u002B class\\CDAC\\.NET\\WasteManagementSystem\\backend\\WasteManagementSystem\\WasteManagementSystem\\Models\\Vehicle.cs",
               "RelativeDocumentMoniker": "WasteManagementSystem\\Models\\Vehicle.cs",
@@ -75,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "WasteRequest.cs",
               "DocumentMoniker": "D:\\Personal \u002B class\\CDAC\\.NET\\WasteManagementSystem\\backend\\WasteManagementSystem\\WasteManagementSystem\\Models\\WasteRequest.cs",
               "RelativeDocumentMoniker": "WasteManagementSystem\\Models\\WasteRequest.cs",
@@ -87,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Personal \u002B class\\CDAC\\.NET\\WasteManagementSystem\\backend\\WasteManagementSystem\\WasteManagementSystem\\Models\\User.cs",
               "RelativeDocumentMoniker": "WasteManagementSystem\\Models\\User.cs",
@@ -95,11 +112,12 @@
               "RelativeToolTip": "WasteManagementSystem\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T16:46:29.298Z"
+              "WhenOpened": "2024-12-05T16:46:29.298Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\Personal \u002B class\\CDAC\\.NET\\WasteManagementSystem\\backend\\WasteManagementSystem\\WasteManagementSystem\\Web.config",
               "RelativeDocumentMoniker": "WasteManagementSystem\\Web.config",

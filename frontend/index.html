@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Waste Management System</h1>
+    </header>
+
+    <main>
+        <section id="create-request">
+            <h2>Create Waste Request</h2>
+            <form id="wasteForm">
+                <label for="userId">User ID:</label>
+                <input type="text" id="userId" name="userId" placeholder="Enter User ID" required>
+                
+                <label for="wasteType">Waste Type:</label>
+                <input type="text" id="wasteType" name="wasteType" placeholder="Enter Waste Type" required>
+                
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" placeholder="Enter Location" required>
+                
+                <label for="status">Status:</label>
+                <select id="status" name="status">
+                    <option value="Pending">Pending</option>
+                    <option value="Completed">Completed</option>
+                </select>
+                
+                <label for="requestDate">Request Date:</label>
+                <input type="date" id="requestDate" name="requestDate" required>
+                
+                <button type="submit">Submit Request</button>
+            </form>
+        </section>
+
+        <section id="request-list">
+            <h2>Waste Requests</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>User ID</th>
+                        <th>Waste Type</th>
+                        <th>Location</th>
+                        <th>Status</th>
+                        <th>Request Date</th>
+                    </tr>
+                </thead>
+                <tbody id="requestTable">
+                    <!-- Dynamic Rows Will Be Added Here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Waste Management System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
